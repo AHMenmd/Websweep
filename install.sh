@@ -1,3 +1,4 @@
+sudo apt install searchsploit -y
 sudo apt install proxychains -y 
 sudo apt install tor -y
 sudo apt install subfinder -y
