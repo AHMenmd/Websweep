@@ -1,4 +1,6 @@
-1:  sudo su
-2:  chmod +x *
-3:  ./install.sh
-4:  python3 websweep.py
+#####Setup######
+1: pip install -r requirements.txt
+2:  sudo su
+3:  chmod +x *
+4:  ./install.sh
+5:  python3 websweep.py
