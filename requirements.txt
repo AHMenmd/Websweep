@@ -1,0 +1,6 @@
+pyautogui
+requests
+rich
+mechanize
+aiohttp
+tqdm
