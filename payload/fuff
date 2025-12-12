@@ -1,0 +1,1 @@
+ffuf -u http://example.com/FUZZ -w wordlist.txt -mc 200,403 -fs 0
