@@ -3,7 +3,7 @@ This tool is designed to detect website vulnerabilities, such as XSS vulnerabili
 # 1 Setup
 bash setup.sh
 # 2 install
-sudo cp /usr/bin/httpx /usr/sbin && git clone https://github.com/hahwul/dalfox.git && cd dalfox && go build dalfox.go && cp dalfox /usr/sbin
+sudo cp /usr/bin/httpx /usr/sbin && git clone https://github.com/hahwul/dalfox.git && cd dalfox && go build dalfox.go && cp dalfox /usr/sbin && git clone https://github.com/devanshbatham/ParamSpider.git && cd ParamSpider && python3 setup.py install
 
 # Run
 python3 websweep.py
