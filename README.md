@@ -4,4 +4,4 @@ This tool is designed to detect website vulnerabilities, such as XSS vulnerabili
 bash setup.sh
 # Run
 python3 websweep.py
-# (websweep.png)[Tool]!
+[Tool]! (websweep.png)
