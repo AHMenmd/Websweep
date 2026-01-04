@@ -1,4 +1,4 @@
-sudo apt update && sudo apt upgrade
+
 sudo apt install searchsploit -y
 sudo apt remove fuff -y
 sudo apt install python3 
