@@ -12,14 +12,14 @@ sleep 2
 echo "[*] Please Waite ..."
 
 sleep 3
-sudo cp tools/ffuf /usr/sbin 
-sudo cp Tools/mantra /usr/sbin 
-sudo cp Tools/kxss /usr/sbin 
-sudo cp tools/waybackurls /usr/sbin
-sudo cp Toolls/gospider /usr/sbin
-sudo cp Tools/subzy /usr/sbin
+sudo mv tools/ffuf /usr/sbin 
+sudo mv Tools/mantra /usr/sbin 
+sudo mv Tools/kxss /usr/sbin 
+sudo mv tools/waybackurls /usr/sbin
+sudo mv Toolls/gospider /usr/sbin
+sudo mv Tools/subzy /usr/sbin
 
-sudo cp Toolls/openredirex /usr/sbin
+sudo mv Toolls/openredirex /usr/sbin
 
 
 sleep 2
