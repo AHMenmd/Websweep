@@ -4,7 +4,7 @@ sudo apt remove fuff -y
 sudo apt install python3 
 sudo apt install wpscan -y
 sudo apt install subfinder -y
-sudo apt install httpx -y 
+sudo apt install httpx -y && rm /usr/bin/httpx
 sleep 2
 
 echo "[*] Done install"
