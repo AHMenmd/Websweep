@@ -12,7 +12,7 @@ echo "[*] Done install"
 sudo cp /usr/bin/httpx /usr/sbin
 sleep 2
 echo "[*] Please Waite ..."
-cd Toolls && chmod +x * && cd .. && cd tools && chmod +x * && cd .. && cd Tools && chmod +x * 
+cd Toolls && chmod +x * && cd .. && cd tools && chmod +x * && cd .. && cd Tools && chmod +x * && cd ..
 
 
 sleep 3
