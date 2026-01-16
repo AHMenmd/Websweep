@@ -4,12 +4,12 @@ This tool is designed to detect website vulnerabilities, such as XSS vulnerabili
 # 1
 sudo apt update && sudo apt upgrade
 # 2 
-git clone https://github.com/AHMenmd/Websweep.git
+sudo git clone https://github.com/AHMenmd/Websweep.git
 # 3 
-chmod +x setup.sh
+sudo chmod +x setup.sh
 # 4
-bash setup.sh
+sudo bash setup.sh
 # Run
-python3 websweep.py
+sudo python3 websweep.py
 # Image 
 ![Tool](https://github.com/AHMenmd/Websweep/blob/main/websweep.png?raw=true)
