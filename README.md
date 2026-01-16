@@ -7,7 +7,7 @@ sudo apt install golang-go -y
 # 3 
 git clone https://github.com/AHMenmd/Websweep.git
 # 4 
-sudo cp /usr/bin/httpx /usr/sbin && git clone https://github.com/hahwul/dalfox.git && cd dalfox && go build dalfox.go && cp dalfox /usr/sbin && git clone https://github.com/devanshbatham/ParamSpider.git && cd ParamSpider && python3 setup.py install
+sudo git clone https://github.com/hahwul/dalfox.git && cd dalfox && go build dalfox.go && cp dalfox /usr/sbin && git clone https://github.com/devanshbatham/ParamSpider.git && cd ParamSpider && python3 setup.py install
 # 5
 bash setup.sh
 # Run
